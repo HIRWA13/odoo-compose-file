@@ -5,10 +5,10 @@ This file repo contains my odoo compose file. the compose file is used to run od
 ## How it works
 
 The compose file contains two services:
-1. odoo_db: This service is used to run the postgresql database
-2. odoo_server: This service is used to run the odoo server
+1. db: This service is used to run the postgresql database
+2. odoor: This service is used to run the odoo server
 
-The odoo server service is linked to the odoo_db service to allow the odoo server to access the database. The odoo server service is also linked to the odoo_addons volume to allow the odoo server to access the addons.
+The odoo  service is linked to the db service to allow the odooto access the database.
 
 The odoo_db service is linked to the odoo_db_data volume to allow the database to store the data.
 
