@@ -1,4 +1,4 @@
-# MY odoo compose file
+# Odoo compose file
 
 This file repo contains my odoo compose file. the compose file is used to run odoo with postgresql as a database.
 
